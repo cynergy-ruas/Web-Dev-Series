@@ -1,0 +1,45 @@
+hetan<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+    	body{
+    		height: 100vh;
+    		display:flex;
+    		background-color: ghostwhite;
+    		align-items: center;
+    		justify-content: center; 
+    	}
+    	#one{
+        margin:50px;
+    		font-size: 200px;
+    		padding: 20px;
+    		background-color: white;
+    		box-shadow: 10px 10px 5px grey;
+        animation-name:zoom;
+        animation-duration: 2s; 
+        animation-iteration-count: infinite;
+    	}
+      @keyframes zoom{
+       0%{transform: scale(1.0);}
+       50%{transform: scale(1.1);}
+
+      }
+    	@media only screen and (max-width: 600px) {
+		  #one {
+		    font-size:50px;
+		  }
+
+		  body{
+		  	padding:10px;
+		  }
+}
+	</style>
+  </head>
+  <body>
+  <div id="one">
+  	Hello World!
+  </div>
+  </body>
+</html>
