@@ -1,46 +1,49 @@
-hetan<!DOCTYPE html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>title</title>
-    <style>
-    	body{
-    		height: 100vh;
-    		display:flex;
-    		background-color: ghostwhite;
-    		align-items: center;
-    		justify-content: center; 
-    	}
-    	#one{
-        margin:50px;
-    		font-size: 200px;
-    		padding: 20px;
-    		background-color: white;
-    		box-shadow: 10px 10px 5px grey;
-        animation-name:zoom;
-        animation-duration: 2s; 
-        animation-iteration-count: infinite;
-    	}
-      @keyframes zoom{
-       0%{transform: scale(1.0);}
-       50%{transform: scale(1.1);}
-
-      }
-    	@media only screen and (max-width: 600px) {
-		  #one {
-		    font-size:50px;
-		  }
-
-		  body{
-		  	padding:10px;
-		  }
-}
-	</style>
-  </head>
-  <body>
-  <!--#22ccpy-->
-  <div id="one">
-  	Hello World!
-  </div>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Tells the browser to match the width with the device-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- This tells the browser to use the latest rendering engine-->
+    <title>Rishabh Mittal</title>
+</head>
+<body id = "page-top">
+    <!-- Nav Bar Start--> 
+    <nav class="navbar fixed-top", id = "main-navbar">
+        <div class="container">
+            <a href="#page-top">DevFolio</a>
+            <button>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id = "navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <!--NavBar End-->
+    <!--Main Page, its the landing page-->
+    <div class="intro-route" id ="home">
+        <div class="container">
+            <h1>I am Rishabh Mittal</h1>
+            <p>Fek raha hu, fek raha hu, fek raha hu</p>
+        </div>
+    </div>  
+</body>
 </html>
