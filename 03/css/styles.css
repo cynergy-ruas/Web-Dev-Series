@@ -1,0 +1,18 @@
+/* body{ 
+    font-family: 'Germania One', cursive;
+    color: white;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+} */
+
+#home{
+    color: red;
+}
+.nav-item{
+    color: red;
+}
