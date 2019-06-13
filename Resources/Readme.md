@@ -40,7 +40,7 @@ Rule of thumb: Even donkeys can write code that the machine can understand, call
   
 ## Version Control
 
-* [Centralised and Distributed Version Control] (https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs)
+* [Centralised and Distributed Version Control](https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs)
   * Advantages of distributed over centralised
   * Why distributed is preferred versus Centralised
 * Git and GitHub (know the difference)
