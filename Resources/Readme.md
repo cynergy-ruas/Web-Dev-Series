@@ -37,3 +37,37 @@ Rule of thumb: Even donkeys can write code that the machine can understand, call
   - [Clean code because it’s fun](https://medium.com/@adamzerner/clean-code-because-its-fun-71e45662a944)
 
   - [Keeping your code clean](https://codeburst.io/keeping-your-code-clean-d30bcffd1a10)
+  
+## Version Control
+
+* [Centralised and Distributed Version Control] (https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs)
+  * Advantages of distributed over centralised
+  * Why distributed is preferred versus Centralised
+* Git and GitHub (know the difference)
+  * Various other git service providers
+* Git
+  * Repositories (forking, cloning and the differnce between them)
+    * How to create
+    * What are README files
+    * How to read other peoplpe's repositories (very important)
+  * gitignore files
+    * Why is it required ?
+    * Important things to put in it
+      * Logs
+      * Compiled Binaries
+      * Coverage Reports
+      * Intermediate Files
+  * Commits
+    * What is a commit ?
+    * Why commit often and logically ?
+    * Difference between staging area, index area, working directory commit
+    * Conventions to follow during a commit ?
+    * Search through commits
+  * Branching and Merging
+    * What is a branch ?
+    * Why is it required ?
+    * How it handles features and allow multiple people to work on same repo without collisions?
+    * Checkout a branch
+    * Conventions to follow for a branch name
+    * What is a `master` branch ?
+    * Head and Branch differences
