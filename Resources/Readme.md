@@ -71,3 +71,52 @@ Rule of thumb: Even donkeys can write code that the machine can understand, call
     * Conventions to follow for a branch name
     * What is a `master` branch ?
     * Head and Branch differences
+  * [Reset](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
+    * What is reset ?
+    * Difference between hard, soft and mixed reset
+    * When to reset ?
+  * [Stashing](https://www.freecodecamp.org/news/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a/) 
+    * Why stashing is required ?
+    * How to keep stashes of files ?
+    * How to pop them back ?
+  * Issues and Pull Requests (Github)
+    * What is an issue ?
+    * Atomic PRs
+    * How to create an issue ?
+    * How to assign it to a member ?
+    * How to review a PR ?
+  * Git Commands (with common flags)
+    * init
+    * clone
+    * add
+    * commit
+    * remote
+    * pull (vs fetch and it's difference)
+    * push 
+    * merge
+    * branch 
+    * checkout
+    * status
+    * diff
+    * log
+  * Git Rebase [Advanced]
+    * Why Rebase (vs merge)
+    * Rebase [Udacity's [Github and Collaboration](https://www.udacity.com/course/github-collaboration--ud456) course]
+    * [Git team workflows: Merge or Rebase](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase)
+    * [How to rebase and update pull request](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
+  * [Commit message style guides](https://chris.beams.io/posts/git-commit/)
+    * [Udacity Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
+  * [Atomic Commits](https://www.freshconsulting.com/atomic-commits/)
+* Git Resources
+  * [Git Cheat Sheet](https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf)
+  * [Getting Started with Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+  * [Try Git](https://try.github.io/) tutorial
+  * [Github issues](https://guides.github.com/features/issues/) and [pull Requests](https://yangsu.github.io/pull-request-tutorial/)
+  * MOOC Courses
+      
+      - Udacity's Version Control with Git [ [Link](https://in.udacity.com/course/version-control-with-git--ud123) ]
+
+      - Udacity's How to use Git and Github [ [Link](https://in.udacity.com/course/how-to-use-git-and-github--ud775) ]
+
+  * [http://ohshitgit.com/](http://ohshitgit.com/)
+    
